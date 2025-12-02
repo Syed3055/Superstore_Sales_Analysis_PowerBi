@@ -1,0 +1,201 @@
+Order ID,Order Date,Ship Date,Ship Mode,Customer Name,Segment,Country,City,State,Postal Code,Region,Category,Sub-Category,Product Name,Sales,Quantity,Discount,Profit
+CA-2018-231932,2015-01-01,2015-01-07,First Class,Ravi Kumar,Consumer,United States,Seattle,California,12983,East,Office Supplies,Binders,Stapler,264.15,5,0.0,38.8
+CA-2017-744167,2015-01-02,2015-01-08,Standard Class,John Doe,Home Office,United States,Houston,California,30662,South,Office Supplies,Storage,HP Printer,1653.87,3,0.1,577.4
+CA-2019-832180,2015-01-03,2015-01-07,Same Day,Syed,Corporate,United States,Seattle,Illinois,33510,West,Furniture,Tables,Samsung Galaxy S21,1566.24,1,0.0,538.68
+CA-2016-621430,2015-01-04,2015-01-07,Second Class,Syed,Corporate,United States,Houston,Texas,88187,Central,Office Supplies,Binders,Executive Chair,1420.4,8,0.1,350.61
+CA-2017-187498,2015-01-05,2015-01-09,Standard Class,Sarah Lee,Corporate,United States,Seattle,Texas,50998,South,Office Supplies,Chairs,Paper Reams,81.96,5,0.0,7.29
+CA-2019-275203,2015-01-06,2015-01-08,Same Day,Syed,Consumer,United States,Seattle,Washington,66846,South,Furniture,Phones,Dell Laptop,613.23,3,0.2,157.02
+CA-2017-429365,2015-01-07,2015-01-09,Same Day,Amit Shah,Consumer,United States,Seattle,Washington,16640,Central,Office Supplies,Accessories,iPhone 13,533.59,7,0.2,41.57
+CA-2019-887201,2015-01-08,2015-01-14,Standard Class,Ravi Kumar,Consumer,United States,Houston,Florida,54547,West,Furniture,Binders,Stapler,726.67,7,0.1,42.73
+CA-2018-427069,2015-01-09,2015-01-12,Second Class,Ravi Kumar,Consumer,United States,Houston,Florida,64620,East,Furniture,Binders,Office Desk,184.41,1,0.0,54.75
+CA-2016-891743,2015-01-10,2015-01-11,Standard Class,John Doe,Corporate,United States,Seattle,New York,25317,East,Furniture,Phones,Dell Laptop,1874.55,9,0.3,211.69
+CA-2018-335796,2015-01-11,2015-01-13,Same Day,Sarah Lee,Home Office,United States,Los Angeles,California,17564,West,Furniture,Binders,Stapler,1112.07,2,0.0,182.05
+CA-2015-284779,2015-01-12,2015-01-18,First Class,John Doe,Consumer,United States,Chicago,Washington,37345,South,Office Supplies,Chairs,HP Printer,617.99,5,0.2,211.38
+CA-2016-521909,2015-01-13,2015-01-18,First Class,Syed,Consumer,United States,Chicago,Texas,89273,South,Furniture,Chairs,HP Printer,799.99,5,0.2,120.84
+CA-2019-358795,2015-01-14,2015-01-20,Standard Class,John Doe,Corporate,United States,Chicago,Illinois,84859,South,Furniture,Phones,Dell Laptop,899.93,8,0.0,125.04
+CA-2015-600186,2015-01-15,2015-01-17,Same Day,Amit Shah,Home Office,United States,Houston,Texas,90765,South,Office Supplies,Accessories,HP Printer,1205.18,8,0.0,392.24
+CA-2017-970910,2015-01-16,2015-01-18,First Class,Ravi Kumar,Home Office,United States,Houston,California,84038,West,Office Supplies,Storage,Executive Chair,1036.2,7,0.3,86.24
+CA-2016-249503,2015-01-17,2015-01-23,Same Day,Syed,Corporate,United States,Los Angeles,Florida,62393,South,Technology,Tables,Samsung Galaxy S21,1839.59,7,0.3,511.18
+CA-2018-627035,2015-01-18,2015-01-19,Standard Class,John Doe,Corporate,United States,Chicago,Texas,76081,Central,Office Supplies,Storage,iPhone 13,998.96,6,0.0,346.06
+CA-2017-691723,2015-01-19,2015-01-23,First Class,Sarah Lee,Home Office,United States,Chicago,New York,39430,South,Office Supplies,Binders,Samsung Galaxy S21,1984.39,6,0.0,635.78
+CA-2018-655839,2015-01-20,2015-01-22,Same Day,Amit Shah,Consumer,United States,Seattle,California,85532,East,Technology,Tables,Stapler,1704.34,9,0.0,418.42
+CA-2015-373538,2015-01-21,2015-01-27,First Class,Amit Shah,Home Office,United States,Houston,Florida,37788,South,Office Supplies,Phones,iPhone 13,424.94,6,0.0,61.28
+CA-2019-628178,2015-01-22,2015-01-28,Standard Class,John Doe,Corporate,United States,Chicago,Illinois,58543,West,Office Supplies,Phones,Paper Reams,1861.88,2,0.1,235.15
+CA-2019-356840,2015-01-23,2015-01-26,Same Day,Ravi Kumar,Consumer,United States,Miami,Florida,23919,East,Office Supplies,Accessories,iPhone 13,241.57,2,0.0,71.45
+CA-2016-765987,2015-01-24,2015-01-28,First Class,John Doe,Consumer,United States,Los Angeles,New York,79346,West,Office Supplies,Tables,Samsung Galaxy S21,1636.72,5,0.3,513.84
+CA-2015-339931,2015-01-25,2015-01-30,Standard Class,Syed,Corporate,United States,Miami,California,49974,West,Technology,Chairs,Dell Laptop,767.44,4,0.2,159.34
+CA-2016-798361,2015-01-26,2015-01-27,First Class,John Doe,Corporate,United States,Miami,Illinois,26371,East,Office Supplies,Tables,iPhone 13,1757.17,2,0.1,216.66
+CA-2015-517113,2015-01-27,2015-02-01,First Class,Amit Shah,Corporate,United States,Los Angeles,New York,55084,West,Office Supplies,Binders,Paper Reams,1737.43,3,0.0,145.74
+CA-2019-877089,2015-01-28,2015-02-01,Second Class,John Doe,Home Office,United States,Miami,Florida,39629,West,Technology,Chairs,Paper Reams,1613.79,7,0.2,122.9
+CA-2018-351995,2015-01-29,2015-02-02,Second Class,Ravi Kumar,Home Office,United States,Chicago,New York,61184,South,Furniture,Phones,Paper Reams,1582.16,8,0.1,420.42
+CA-2018-672843,2015-01-30,2015-02-03,Standard Class,Sarah Lee,Consumer,United States,Houston,California,71916,Central,Technology,Tables,Samsung Galaxy S21,616.31,6,0.2,108.49
+CA-2019-903591,2015-01-31,2015-02-05,Second Class,Priya Singh,Corporate,United States,Los Angeles,Washington,83972,West,Furniture,Storage,iPhone 13,171.03,5,0.0,55.0
+CA-2017-704365,2015-02-01,2015-02-05,Standard Class,John Doe,Consumer,United States,Seattle,New York,72187,West,Technology,Accessories,Office Desk,811.93,1,0.0,220.76
+CA-2015-560337,2015-02-02,2015-02-08,Second Class,Ravi Kumar,Consumer,United States,Miami,New York,22984,West,Technology,Storage,Dell Laptop,355.31,8,0.3,38.15
+CA-2018-905889,2015-02-03,2015-02-08,First Class,Ravi Kumar,Consumer,United States,Los Angeles,Florida,43039,South,Office Supplies,Accessories,Executive Chair,1392.95,3,0.0,326.14
+CA-2016-415139,2015-02-04,2015-02-08,Standard Class,Sarah Lee,Consumer,United States,New York,Florida,95431,Central,Furniture,Binders,iPhone 13,698.74,6,0.0,126.23
+CA-2019-538974,2015-02-05,2015-02-11,Standard Class,Amit Shah,Corporate,United States,New York,Illinois,93691,East,Office Supplies,Storage,Paper Reams,1951.46,3,0.1,435.52
+CA-2016-302283,2015-02-06,2015-02-09,First Class,Ravi Kumar,Consumer,United States,Houston,Florida,68606,South,Furniture,Tables,Office Desk,1285.53,7,0.3,348.92
+CA-2016-661353,2015-02-07,2015-02-11,Standard Class,Ravi Kumar,Corporate,United States,Chicago,Texas,20616,South,Technology,Tables,Executive Chair,1646.74,7,0.1,480.62
+CA-2018-635822,2015-02-08,2015-02-13,Standard Class,Ravi Kumar,Corporate,United States,Houston,California,60072,Central,Technology,Storage,Executive Chair,273.72,9,0.2,82.97
+CA-2018-363160,2015-02-09,2015-02-11,Second Class,Ravi Kumar,Home Office,United States,Houston,California,34574,Central,Furniture,Tables,Stapler,1725.41,5,0.0,217.73
+CA-2019-123247,2015-02-10,2015-02-14,Standard Class,Syed,Corporate,United States,Houston,Washington,13430,South,Office Supplies,Binders,iPhone 13,1846.29,8,0.2,109.55
+CA-2019-567281,2015-02-11,2015-02-13,Same Day,Syed,Home Office,United States,Houston,Washington,22676,East,Office Supplies,Chairs,Samsung Galaxy S21,979.25,8,0.1,266.15
+CA-2019-448951,2015-02-12,2015-02-18,First Class,Amit Shah,Corporate,United States,Seattle,California,20816,South,Office Supplies,Binders,iPhone 13,1216.44,1,0.0,99.63
+CA-2016-819064,2015-02-13,2015-02-16,Second Class,John Doe,Corporate,United States,Seattle,Washington,42733,Central,Office Supplies,Accessories,Office Desk,1531.97,5,0.0,221.33
+CA-2018-532315,2015-02-14,2015-02-15,Second Class,Ravi Kumar,Corporate,United States,Los Angeles,Illinois,95680,East,Technology,Binders,Executive Chair,357.93,3,0.1,18.31
+CA-2018-616588,2015-02-15,2015-02-18,Same Day,Sarah Lee,Home Office,United States,New York,Florida,12050,Central,Technology,Accessories,iPhone 13,1010.11,1,0.1,257.07
+CA-2015-662332,2015-02-16,2015-02-20,First Class,John Doe,Home Office,United States,Houston,California,43933,East,Technology,Tables,Samsung Galaxy S21,803.34,4,0.1,80.45
+CA-2019-476896,2015-02-17,2015-02-19,First Class,Sarah Lee,Consumer,United States,Los Angeles,Washington,34951,West,Technology,Chairs,Stapler,301.28,8,0.1,74.29
+CA-2015-402918,2015-02-18,2015-02-20,Second Class,John Doe,Home Office,United States,New York,California,42413,Central,Technology,Tables,iPhone 13,741.39,3,0.1,257.65
+CA-2015-220151,2015-02-19,2015-02-24,Standard Class,Amit Shah,Home Office,United States,Miami,Texas,44801,Central,Office Supplies,Phones,Dell Laptop,145.66,2,0.0,10.46
+CA-2015-233767,2015-02-20,2015-02-22,Second Class,Ravi Kumar,Home Office,United States,Chicago,New York,65619,South,Office Supplies,Tables,Stapler,61.37,9,0.1,4.49
+CA-2017-580754,2015-02-21,2015-02-26,First Class,Ravi Kumar,Home Office,United States,Seattle,Florida,42913,Central,Office Supplies,Accessories,Samsung Galaxy S21,278.98,5,0.0,42.44
+CA-2015-788519,2015-02-22,2015-02-28,Same Day,Priya Singh,Consumer,United States,Miami,California,50600,Central,Office Supplies,Tables,Office Desk,1926.6,7,0.0,597.08
+CA-2017-686146,2015-02-23,2015-02-24,Second Class,Sarah Lee,Home Office,United States,New York,New York,67775,West,Technology,Tables,Executive Chair,1103.56,2,0.1,126.53
+CA-2015-112666,2015-02-24,2015-02-28,First Class,John Doe,Corporate,United States,Miami,Washington,45400,Central,Technology,Chairs,iPhone 13,1931.99,9,0.1,305.47
+CA-2019-234633,2015-02-25,2015-03-02,Second Class,John Doe,Corporate,United States,Chicago,New York,14494,West,Technology,Tables,Samsung Galaxy S21,870.67,9,0.3,61.43
+CA-2016-728776,2015-02-26,2015-02-27,Standard Class,Syed,Home Office,United States,New York,Florida,90688,West,Furniture,Chairs,Stapler,630.51,4,0.0,175.88
+CA-2018-384806,2015-02-27,2015-03-01,Second Class,Priya Singh,Home Office,United States,Miami,California,99431,West,Office Supplies,Storage,Dell Laptop,1017.22,4,0.1,175.46
+CA-2015-130535,2015-02-28,2015-03-02,Second Class,Syed,Corporate,United States,Seattle,Texas,84691,West,Office Supplies,Phones,Samsung Galaxy S21,884.63,6,0.1,245.73
+CA-2018-475713,2015-03-01,2015-03-02,First Class,Syed,Corporate,United States,Seattle,Washington,53001,East,Technology,Chairs,HP Printer,220.27,6,0.1,70.72
+CA-2015-451279,2015-03-02,2015-03-04,First Class,Syed,Consumer,United States,Los Angeles,California,77364,South,Office Supplies,Accessories,Paper Reams,1285.24,1,0.3,154.01
+CA-2019-589570,2015-03-03,2015-03-09,First Class,Sarah Lee,Corporate,United States,Miami,Florida,55028,East,Office Supplies,Storage,Dell Laptop,439.92,9,0.3,128.55
+CA-2018-556551,2015-03-04,2015-03-10,Second Class,Sarah Lee,Corporate,United States,Houston,Washington,47573,Central,Technology,Chairs,Stapler,1242.98,2,0.2,84.18
+CA-2017-994498,2015-03-05,2015-03-06,Standard Class,Amit Shah,Home Office,United States,Miami,Illinois,10806,East,Furniture,Chairs,Office Desk,1303.9,5,0.0,416.8
+CA-2015-591234,2015-03-06,2015-03-11,Same Day,Amit Shah,Corporate,United States,New York,New York,66638,East,Furniture,Phones,Executive Chair,312.53,9,0.2,76.64
+CA-2019-239182,2015-03-07,2015-03-12,Same Day,Syed,Consumer,United States,New York,Florida,39757,Central,Furniture,Accessories,Stapler,132.09,4,0.1,41.25
+CA-2017-284064,2015-03-08,2015-03-09,First Class,Priya Singh,Corporate,United States,Miami,Illinois,44636,Central,Technology,Binders,Paper Reams,1563.72,3,0.3,78.27
+CA-2019-723094,2015-03-09,2015-03-14,First Class,John Doe,Home Office,United States,Chicago,California,90097,Central,Office Supplies,Binders,Office Desk,925.0,7,0.3,93.17
+CA-2017-219176,2015-03-10,2015-03-15,Second Class,Sarah Lee,Home Office,United States,Seattle,Texas,58280,East,Technology,Chairs,iPhone 13,125.75,6,0.2,20.99
+CA-2016-222409,2015-03-11,2015-03-17,Same Day,Priya Singh,Corporate,United States,New York,Washington,34262,East,Technology,Tables,Samsung Galaxy S21,1989.78,8,0.3,326.03
+CA-2018-353618,2015-03-12,2015-03-17,First Class,Ravi Kumar,Home Office,United States,Seattle,New York,90435,Central,Office Supplies,Accessories,HP Printer,124.98,3,0.1,14.75
+CA-2015-731347,2015-03-13,2015-03-16,Standard Class,Sarah Lee,Consumer,United States,New York,Washington,72211,South,Furniture,Storage,Dell Laptop,1393.12,5,0.3,229.15
+CA-2019-210687,2015-03-14,2015-03-18,Standard Class,Sarah Lee,Consumer,United States,Los Angeles,California,64842,South,Furniture,Tables,Dell Laptop,1967.52,4,0.2,174.43
+CA-2018-511357,2015-03-15,2015-03-17,First Class,Amit Shah,Corporate,United States,Houston,Washington,66979,West,Technology,Tables,Samsung Galaxy S21,485.97,4,0.1,84.48
+CA-2019-205878,2015-03-16,2015-03-19,First Class,John Doe,Corporate,United States,New York,New York,91470,Central,Furniture,Accessories,HP Printer,293.08,4,0.2,85.2
+CA-2019-298286,2015-03-17,2015-03-22,Same Day,John Doe,Corporate,United States,Seattle,California,48197,West,Technology,Chairs,Samsung Galaxy S21,251.56,8,0.3,48.73
+CA-2017-874684,2015-03-18,2015-03-24,Same Day,Ravi Kumar,Home Office,United States,Los Angeles,Washington,51844,South,Technology,Chairs,iPhone 13,613.52,6,0.2,33.99
+CA-2018-424767,2015-03-19,2015-03-20,Second Class,Ravi Kumar,Consumer,United States,New York,Texas,74754,West,Office Supplies,Chairs,Paper Reams,211.08,3,0.2,37.24
+CA-2017-979858,2015-03-20,2015-03-25,Same Day,Sarah Lee,Consumer,United States,Chicago,Florida,44157,Central,Office Supplies,Chairs,Office Desk,1387.4,5,0.0,80.68
+CA-2018-143585,2015-03-21,2015-03-27,Standard Class,Syed,Home Office,United States,Houston,California,87129,Central,Office Supplies,Binders,Stapler,133.96,6,0.3,45.53
+CA-2016-164044,2015-03-22,2015-03-26,Standard Class,Amit Shah,Consumer,United States,New York,Florida,50042,Central,Technology,Chairs,Dell Laptop,1023.75,5,0.3,90.33
+CA-2015-209556,2015-03-23,2015-03-28,First Class,Amit Shah,Corporate,United States,Los Angeles,California,71665,East,Office Supplies,Binders,iPhone 13,1993.43,6,0.2,522.89
+CA-2018-981691,2015-03-24,2015-03-25,Same Day,Sarah Lee,Corporate,United States,Chicago,Texas,92856,West,Furniture,Binders,Office Desk,1629.8,8,0.0,557.12
+CA-2018-300235,2015-03-25,2015-03-31,Second Class,Priya Singh,Corporate,United States,Miami,Florida,37376,South,Furniture,Chairs,iPhone 13,1234.29,7,0.3,367.59
+CA-2018-252906,2015-03-26,2015-04-01,Standard Class,Syed,Consumer,United States,Los Angeles,Illinois,65554,South,Technology,Phones,HP Printer,619.44,5,0.1,160.93
+CA-2016-175766,2015-03-27,2015-04-02,Standard Class,Sarah Lee,Corporate,United States,Los Angeles,New York,24199,South,Technology,Storage,Dell Laptop,1251.55,6,0.2,377.77
+CA-2018-515192,2015-03-28,2015-04-01,Second Class,Syed,Home Office,United States,Chicago,Illinois,91412,East,Office Supplies,Tables,Stapler,1058.81,4,0.3,364.8
+CA-2015-785440,2015-03-29,2015-04-03,Second Class,Syed,Home Office,United States,Los Angeles,Washington,60948,East,Technology,Binders,Samsung Galaxy S21,857.91,9,0.1,202.81
+CA-2015-554589,2015-03-30,2015-04-03,Standard Class,Syed,Consumer,United States,Chicago,Texas,83781,Central,Technology,Accessories,Samsung Galaxy S21,270.11,4,0.3,58.82
+CA-2015-717075,2015-03-31,2015-04-02,Standard Class,Sarah Lee,Home Office,United States,New York,Illinois,82750,South,Furniture,Accessories,Office Desk,1774.34,1,0.1,423.13
+CA-2019-679304,2015-04-01,2015-04-03,Second Class,Amit Shah,Home Office,United States,Chicago,California,76262,East,Furniture,Storage,Stapler,905.07,7,0.2,189.89
+CA-2017-599046,2015-04-02,2015-04-07,Standard Class,Amit Shah,Consumer,United States,Chicago,Washington,56600,Central,Office Supplies,Accessories,Paper Reams,397.3,7,0.3,95.56
+CA-2017-850216,2015-04-03,2015-04-07,First Class,Syed,Corporate,United States,Houston,Washington,86898,South,Technology,Phones,Executive Chair,741.84,4,0.3,137.21
+CA-2019-328576,2015-04-04,2015-04-05,First Class,Priya Singh,Corporate,United States,Chicago,Illinois,72483,West,Technology,Accessories,HP Printer,834.12,3,0.0,96.37
+CA-2017-637833,2015-04-05,2015-04-11,Second Class,John Doe,Corporate,United States,Chicago,Illinois,28297,Central,Furniture,Tables,Office Desk,1656.8,8,0.2,142.61
+CA-2018-265838,2015-04-06,2015-04-12,Same Day,Sarah Lee,Consumer,United States,Miami,Texas,40448,East,Technology,Tables,Executive Chair,1469.89,5,0.1,103.63
+CA-2017-979989,2015-04-07,2015-04-12,Second Class,John Doe,Home Office,United States,New York,New York,36172,East,Furniture,Binders,iPhone 13,1540.92,7,0.3,198.77
+CA-2015-218451,2015-04-08,2015-04-10,Second Class,Priya Singh,Corporate,United States,Houston,Illinois,52874,Central,Office Supplies,Chairs,HP Printer,31.95,4,0.3,2.04
+CA-2015-937437,2015-04-09,2015-04-11,Same Day,Sarah Lee,Corporate,United States,Miami,Illinois,17657,Central,Furniture,Phones,iPhone 13,838.15,4,0.1,184.52
+CA-2015-139353,2015-04-10,2015-04-16,Same Day,Syed,Consumer,United States,Seattle,Florida,94386,East,Technology,Binders,Paper Reams,967.87,8,0.2,130.81
+CA-2018-314283,2015-04-11,2015-04-16,Same Day,Amit Shah,Corporate,United States,New York,California,35425,West,Office Supplies,Phones,Stapler,48.19,8,0.0,14.33
+CA-2016-582690,2015-04-12,2015-04-16,First Class,John Doe,Consumer,United States,New York,Florida,36685,South,Furniture,Chairs,Dell Laptop,527.03,2,0.0,38.09
+CA-2015-691460,2015-04-13,2015-04-15,Standard Class,Ravi Kumar,Home Office,United States,Seattle,Florida,34578,West,Furniture,Accessories,HP Printer,1522.98,2,0.3,179.57
+CA-2015-881239,2015-04-14,2015-04-18,First Class,Ravi Kumar,Consumer,United States,Chicago,Washington,38831,Central,Office Supplies,Accessories,Executive Chair,282.85,3,0.1,76.11
+CA-2015-870746,2015-04-15,2015-04-17,Standard Class,Priya Singh,Consumer,United States,Miami,New York,17906,West,Office Supplies,Chairs,Paper Reams,1075.27,3,0.3,246.93
+CA-2015-325281,2015-04-16,2015-04-18,First Class,Syed,Consumer,United States,Los Angeles,California,71413,East,Furniture,Binders,Dell Laptop,438.25,1,0.1,30.39
+CA-2016-737147,2015-04-17,2015-04-20,Standard Class,John Doe,Consumer,United States,Houston,Texas,64028,Central,Technology,Chairs,Samsung Galaxy S21,34.12,3,0.0,10.69
+CA-2019-531839,2015-04-18,2015-04-20,First Class,Syed,Home Office,United States,Los Angeles,Texas,17287,South,Furniture,Storage,Executive Chair,489.99,6,0.2,153.45
+CA-2015-417824,2015-04-19,2015-04-20,Same Day,John Doe,Home Office,United States,Seattle,Illinois,43660,East,Office Supplies,Tables,Office Desk,1951.99,8,0.1,291.09
+CA-2017-277789,2015-04-20,2015-04-25,Second Class,Priya Singh,Corporate,United States,New York,Illinois,85758,East,Furniture,Binders,Samsung Galaxy S21,1605.06,6,0.0,244.16
+CA-2016-842452,2015-04-21,2015-04-26,First Class,Priya Singh,Home Office,United States,New York,Texas,70504,South,Office Supplies,Phones,Paper Reams,1919.56,5,0.3,665.53
+CA-2018-225657,2015-04-22,2015-04-26,Standard Class,Ravi Kumar,Home Office,United States,Houston,Illinois,69720,South,Office Supplies,Storage,Samsung Galaxy S21,980.83,4,0.1,233.29
+CA-2018-283734,2015-04-23,2015-04-25,Same Day,Syed,Corporate,United States,New York,New York,44701,West,Technology,Binders,Office Desk,228.38,3,0.2,47.82
+CA-2017-209751,2015-04-24,2015-04-25,First Class,Sarah Lee,Home Office,United States,New York,Florida,93300,Central,Office Supplies,Chairs,HP Printer,1100.44,4,0.3,331.72
+CA-2017-911774,2015-04-25,2015-04-29,First Class,Ravi Kumar,Consumer,United States,Houston,Illinois,27674,South,Office Supplies,Chairs,Samsung Galaxy S21,914.21,7,0.3,123.96
+CA-2019-206081,2015-04-26,2015-04-29,Same Day,Syed,Consumer,United States,Miami,Washington,93560,South,Technology,Chairs,Stapler,1690.27,1,0.0,302.14
+CA-2017-210078,2015-04-27,2015-05-01,First Class,Ravi Kumar,Corporate,United States,Miami,Illinois,33874,Central,Office Supplies,Chairs,Executive Chair,205.18,7,0.1,26.74
+CA-2015-455528,2015-04-28,2015-05-02,Second Class,Sarah Lee,Corporate,United States,Houston,California,53642,South,Technology,Phones,Dell Laptop,981.6,1,0.3,281.47
+CA-2018-710490,2015-04-29,2015-05-01,First Class,Amit Shah,Corporate,United States,Seattle,New York,75160,South,Technology,Storage,Samsung Galaxy S21,308.6,2,0.2,68.51
+CA-2019-978338,2015-04-30,2015-05-03,Second Class,Amit Shah,Consumer,United States,New York,California,27602,West,Office Supplies,Accessories,Executive Chair,656.11,4,0.1,162.48
+CA-2018-233883,2015-05-01,2015-05-05,Second Class,Amit Shah,Home Office,United States,New York,California,98801,East,Office Supplies,Tables,iPhone 13,1477.34,1,0.2,185.69
+CA-2017-212547,2015-05-02,2015-05-03,Same Day,Amit Shah,Consumer,United States,Seattle,Washington,35931,East,Furniture,Phones,Executive Chair,957.28,9,0.3,111.11
+CA-2017-659042,2015-05-03,2015-05-04,First Class,John Doe,Corporate,United States,Miami,New York,39192,East,Technology,Phones,Dell Laptop,758.02,6,0.2,148.96
+CA-2017-242483,2015-05-04,2015-05-09,Same Day,Amit Shah,Home Office,United States,Chicago,New York,56542,East,Furniture,Accessories,Executive Chair,795.01,1,0.0,215.66
+CA-2018-501896,2015-05-05,2015-05-08,First Class,Sarah Lee,Home Office,United States,Chicago,New York,52520,South,Office Supplies,Accessories,Office Desk,924.3,1,0.2,191.86
+CA-2015-577095,2015-05-06,2015-05-09,First Class,Priya Singh,Consumer,United States,Chicago,New York,74772,Central,Furniture,Tables,Paper Reams,1572.18,6,0.1,94.01
+CA-2016-373255,2015-05-07,2015-05-12,Standard Class,Priya Singh,Corporate,United States,Miami,New York,68762,Central,Technology,Tables,Dell Laptop,1785.25,4,0.2,554.44
+CA-2015-757162,2015-05-08,2015-05-12,First Class,John Doe,Consumer,United States,Miami,Washington,60106,West,Furniture,Accessories,Paper Reams,1911.12,4,0.2,132.64
+CA-2018-566872,2015-05-09,2015-05-12,Same Day,Amit Shah,Home Office,United States,Seattle,Illinois,91121,West,Technology,Chairs,HP Printer,1575.94,6,0.0,530.69
+CA-2015-474705,2015-05-10,2015-05-11,Second Class,Amit Shah,Consumer,United States,New York,California,35559,South,Office Supplies,Phones,Paper Reams,637.66,7,0.2,36.69
+CA-2016-654594,2015-05-11,2015-05-12,First Class,Amit Shah,Consumer,United States,Seattle,New York,43742,Central,Office Supplies,Binders,iPhone 13,1379.39,9,0.2,356.34
+CA-2018-745263,2015-05-12,2015-05-14,Standard Class,Ravi Kumar,Corporate,United States,Seattle,Illinois,79669,Central,Technology,Tables,Office Desk,880.83,5,0.3,65.76
+CA-2016-207512,2015-05-13,2015-05-16,Same Day,Syed,Corporate,United States,Miami,Illinois,90199,East,Office Supplies,Tables,HP Printer,516.79,9,0.3,167.03
+CA-2018-570587,2015-05-14,2015-05-18,First Class,Ravi Kumar,Home Office,United States,Chicago,California,31754,South,Office Supplies,Accessories,Executive Chair,1683.33,4,0.1,318.7
+CA-2015-757409,2015-05-15,2015-05-20,Same Day,Syed,Consumer,United States,Los Angeles,Washington,13972,South,Office Supplies,Storage,Dell Laptop,86.47,2,0.3,7.89
+CA-2015-465871,2015-05-16,2015-05-21,Standard Class,Amit Shah,Consumer,United States,New York,Texas,80831,East,Office Supplies,Binders,iPhone 13,1804.51,3,0.3,274.73
+CA-2018-907364,2015-05-17,2015-05-21,Standard Class,Amit Shah,Consumer,United States,Miami,Texas,51873,South,Technology,Binders,Office Desk,928.34,1,0.3,92.32
+CA-2019-391999,2015-05-18,2015-05-24,Same Day,Ravi Kumar,Home Office,United States,Chicago,Illinois,19903,South,Furniture,Tables,HP Printer,1278.03,6,0.3,129.3
+CA-2017-798376,2015-05-19,2015-05-21,First Class,Ravi Kumar,Home Office,United States,Los Angeles,Florida,13020,West,Furniture,Chairs,HP Printer,1322.11,6,0.0,442.16
+CA-2015-480002,2015-05-20,2015-05-25,Second Class,Syed,Corporate,United States,Los Angeles,Florida,51755,Central,Office Supplies,Storage,iPhone 13,1791.28,1,0.3,328.83
+CA-2017-639439,2015-05-21,2015-05-24,Standard Class,Priya Singh,Corporate,United States,Miami,California,95956,South,Furniture,Binders,Stapler,1276.97,3,0.0,366.03
+CA-2017-628787,2015-05-22,2015-05-24,First Class,Syed,Corporate,United States,Houston,Texas,96988,West,Furniture,Tables,Executive Chair,1231.73,5,0.0,297.93
+CA-2015-898615,2015-05-23,2015-05-26,First Class,Ravi Kumar,Consumer,United States,New York,Illinois,55648,Central,Office Supplies,Binders,iPhone 13,142.64,3,0.3,36.08
+CA-2018-768234,2015-05-24,2015-05-25,Second Class,Sarah Lee,Consumer,United States,Los Angeles,Washington,19516,East,Office Supplies,Storage,HP Printer,1041.63,3,0.2,93.23
+CA-2015-132711,2015-05-25,2015-05-27,Standard Class,Ravi Kumar,Corporate,United States,Miami,Texas,12396,West,Furniture,Storage,Samsung Galaxy S21,308.84,3,0.0,37.14
+CA-2018-601157,2015-05-26,2015-05-31,Standard Class,Sarah Lee,Consumer,United States,Miami,Illinois,94082,West,Technology,Phones,Office Desk,1477.49,5,0.2,422.6
+CA-2018-616349,2015-05-27,2015-05-29,First Class,John Doe,Corporate,United States,Chicago,Illinois,29129,Central,Office Supplies,Accessories,iPhone 13,1029.32,5,0.2,351.23
+CA-2017-757917,2015-05-28,2015-05-30,First Class,Ravi Kumar,Home Office,United States,Houston,New York,11591,East,Technology,Accessories,Stapler,1363.65,4,0.3,175.64
+CA-2015-837378,2015-05-29,2015-05-31,Second Class,John Doe,Corporate,United States,New York,Washington,21303,West,Furniture,Tables,HP Printer,92.93,1,0.1,12.22
+CA-2015-867836,2015-05-30,2015-06-05,Second Class,Priya Singh,Home Office,United States,Seattle,New York,40561,South,Office Supplies,Storage,Executive Chair,178.74,5,0.3,34.29
+CA-2016-802335,2015-05-31,2015-06-02,Standard Class,Syed,Consumer,United States,Chicago,California,81719,South,Technology,Phones,Paper Reams,1435.48,5,0.1,495.46
+CA-2016-177505,2015-06-01,2015-06-04,Same Day,Sarah Lee,Corporate,United States,Los Angeles,New York,96231,South,Office Supplies,Phones,HP Printer,153.45,4,0.1,20.05
+CA-2017-554351,2015-06-02,2015-06-03,Standard Class,Syed,Consumer,United States,Los Angeles,New York,17314,East,Furniture,Binders,Executive Chair,151.8,6,0.3,26.12
+CA-2019-736584,2015-06-03,2015-06-07,First Class,John Doe,Home Office,United States,Chicago,Texas,29623,West,Technology,Binders,iPhone 13,34.1,4,0.3,10.82
+CA-2018-190272,2015-06-04,2015-06-06,Standard Class,Sarah Lee,Home Office,United States,Miami,Florida,77675,South,Furniture,Phones,Executive Chair,1913.44,7,0.1,97.35
+CA-2018-909760,2015-06-05,2015-06-10,Same Day,Syed,Home Office,United States,Los Angeles,Illinois,75082,East,Furniture,Binders,Dell Laptop,1477.64,7,0.3,91.51
+CA-2019-580047,2015-06-06,2015-06-08,Second Class,Ravi Kumar,Consumer,United States,Houston,Washington,93624,South,Office Supplies,Storage,Dell Laptop,712.97,2,0.1,164.85
+CA-2018-158871,2015-06-07,2015-06-12,Same Day,Amit Shah,Consumer,United States,New York,New York,43130,Central,Technology,Chairs,Dell Laptop,600.11,3,0.2,193.36
+CA-2017-710704,2015-06-08,2015-06-11,Same Day,John Doe,Consumer,United States,Houston,Washington,61756,West,Furniture,Storage,Stapler,705.91,1,0.3,85.88
+CA-2015-356687,2015-06-09,2015-06-14,Same Day,Syed,Consumer,United States,Los Angeles,Florida,36292,West,Furniture,Phones,Stapler,1551.56,8,0.2,296.18
+CA-2018-207450,2015-06-10,2015-06-14,Second Class,John Doe,Home Office,United States,Seattle,Florida,96206,East,Technology,Phones,Samsung Galaxy S21,1326.13,9,0.0,245.52
+CA-2017-538741,2015-06-11,2015-06-12,Same Day,John Doe,Home Office,United States,New York,New York,79274,East,Furniture,Storage,Stapler,378.54,4,0.2,72.64
+CA-2019-829650,2015-06-12,2015-06-17,Same Day,Sarah Lee,Corporate,United States,New York,California,12469,West,Furniture,Binders,Paper Reams,356.48,6,0.2,84.4
+CA-2017-392890,2015-06-13,2015-06-18,Same Day,Sarah Lee,Corporate,United States,Chicago,New York,63947,South,Technology,Binders,iPhone 13,205.81,9,0.1,39.29
+CA-2016-940477,2015-06-14,2015-06-15,First Class,Amit Shah,Consumer,United States,Chicago,Texas,32534,South,Technology,Accessories,HP Printer,1324.0,6,0.2,243.93
+CA-2015-469599,2015-06-15,2015-06-19,Same Day,Ravi Kumar,Home Office,United States,Seattle,Illinois,73620,Central,Technology,Phones,HP Printer,1531.1,9,0.3,294.41
+CA-2015-850020,2015-06-16,2015-06-18,Second Class,John Doe,Home Office,United States,Miami,California,58874,South,Technology,Tables,Samsung Galaxy S21,537.44,4,0.1,122.14
+CA-2018-271836,2015-06-17,2015-06-22,Same Day,Syed,Home Office,United States,New York,New York,59708,East,Office Supplies,Accessories,Stapler,51.68,8,0.0,10.91
+CA-2017-727234,2015-06-18,2015-06-19,Same Day,Priya Singh,Corporate,United States,Seattle,Washington,84553,East,Technology,Binders,Paper Reams,173.52,9,0.3,53.14
+CA-2015-730271,2015-06-19,2015-06-22,Second Class,John Doe,Corporate,United States,Chicago,California,78344,South,Office Supplies,Storage,Executive Chair,1936.04,4,0.0,125.55
+CA-2015-811851,2015-06-20,2015-06-21,Same Day,John Doe,Home Office,United States,Chicago,California,59138,East,Office Supplies,Binders,Samsung Galaxy S21,597.94,5,0.2,179.38
+CA-2018-405628,2015-06-21,2015-06-24,Second Class,Amit Shah,Home Office,United States,New York,New York,64302,West,Office Supplies,Storage,Paper Reams,1540.75,8,0.3,467.12
+CA-2019-929957,2015-06-22,2015-06-26,Same Day,Ravi Kumar,Home Office,United States,Houston,California,57638,West,Furniture,Accessories,Executive Chair,1253.08,6,0.3,169.76
+CA-2017-787995,2015-06-23,2015-06-25,Second Class,Priya Singh,Corporate,United States,Los Angeles,Washington,88249,South,Office Supplies,Phones,Paper Reams,770.06,7,0.0,145.43
+CA-2015-920260,2015-06-24,2015-06-25,Same Day,Sarah Lee,Home Office,United States,Chicago,Florida,12719,West,Office Supplies,Binders,Executive Chair,419.32,3,0.3,76.13
+CA-2019-983184,2015-06-25,2015-07-01,Same Day,Sarah Lee,Home Office,United States,Miami,California,32890,West,Furniture,Storage,Office Desk,251.56,7,0.3,29.07
+CA-2019-215294,2015-06-26,2015-07-01,First Class,Syed,Consumer,United States,Miami,Florida,87236,Central,Furniture,Phones,Paper Reams,1233.88,8,0.3,208.57
+CA-2017-559451,2015-06-27,2015-07-01,First Class,Priya Singh,Consumer,United States,Chicago,Washington,46509,Central,Furniture,Tables,HP Printer,1551.52,6,0.2,98.24
+CA-2015-748307,2015-06-28,2015-06-29,Same Day,Sarah Lee,Corporate,United States,Houston,New York,52534,West,Technology,Storage,Dell Laptop,1291.37,9,0.0,172.2
+CA-2019-477812,2015-06-29,2015-07-04,Same Day,Syed,Home Office,United States,Houston,Illinois,28787,South,Furniture,Accessories,Stapler,1065.3,6,0.3,314.27
+CA-2015-218015,2015-06-30,2015-07-01,Standard Class,Ravi Kumar,Home Office,United States,Seattle,California,58845,Central,Furniture,Tables,Executive Chair,93.48,9,0.1,12.65
+CA-2017-354079,2015-07-01,2015-07-04,Second Class,Syed,Consumer,United States,Miami,Illinois,67932,East,Office Supplies,Tables,Office Desk,1937.29,4,0.1,572.4
+CA-2016-789944,2015-07-02,2015-07-03,Standard Class,Sarah Lee,Corporate,United States,Seattle,Washington,43062,East,Furniture,Chairs,Paper Reams,1599.44,8,0.1,335.05
+CA-2016-613758,2015-07-03,2015-07-09,First Class,Amit Shah,Consumer,United States,Miami,California,85713,East,Technology,Binders,HP Printer,592.72,4,0.1,186.09
+CA-2016-465890,2015-07-04,2015-07-05,First Class,Amit Shah,Consumer,United States,Los Angeles,Florida,97263,South,Furniture,Storage,Dell Laptop,1960.14,2,0.2,436.0
+CA-2016-172991,2015-07-05,2015-07-06,First Class,Amit Shah,Consumer,United States,Los Angeles,Texas,70461,West,Technology,Tables,Executive Chair,1207.74,9,0.3,71.14
+CA-2016-156958,2015-07-06,2015-07-12,First Class,Sarah Lee,Consumer,United States,New York,Illinois,85418,East,Furniture,Chairs,Paper Reams,1169.02,5,0.0,295.32
+CA-2017-635017,2015-07-07,2015-07-11,Same Day,Amit Shah,Home Office,United States,Seattle,California,76672,South,Furniture,Accessories,Paper Reams,1498.67,4,0.3,95.1
+CA-2016-276089,2015-07-08,2015-07-09,First Class,Priya Singh,Home Office,United States,Chicago,Illinois,44832,Central,Furniture,Phones,Executive Chair,1625.42,2,0.2,300.99
+CA-2015-258823,2015-07-09,2015-07-15,Same Day,Ravi Kumar,Consumer,United States,Seattle,California,41966,West,Furniture,Storage,Samsung Galaxy S21,1316.39,1,0.1,432.87
+CA-2015-730152,2015-07-10,2015-07-15,Same Day,Syed,Corporate,United States,Chicago,New York,82545,Central,Technology,Tables,Samsung Galaxy S21,264.91,7,0.2,26.37
+CA-2017-833429,2015-07-11,2015-07-14,First Class,Syed,Corporate,United States,Houston,Florida,22987,South,Technology,Binders,HP Printer,683.15,6,0.3,114.06
+CA-2019-630089,2015-07-12,2015-07-15,First Class,Sarah Lee,Corporate,United States,Seattle,Illinois,47311,East,Office Supplies,Chairs,Dell Laptop,1856.89,2,0.0,499.43
+CA-2016-335362,2015-07-13,2015-07-14,Second Class,Amit Shah,Corporate,United States,Houston,Texas,41575,East,Technology,Tables,Executive Chair,456.99,8,0.2,143.8
+CA-2016-653880,2015-07-14,2015-07-18,Standard Class,Amit Shah,Consumer,United States,Los Angeles,Texas,73852,South,Furniture,Binders,HP Printer,750.61,4,0.0,188.62
+CA-2019-319963,2015-07-15,2015-07-19,First Class,John Doe,Home Office,United States,Los Angeles,Washington,11007,East,Office Supplies,Tables,HP Printer,869.83,8,0.2,110.86
+CA-2016-348710,2015-07-16,2015-07-21,Second Class,Ravi Kumar,Corporate,United States,New York,California,80981,West,Office Supplies,Storage,iPhone 13,884.42,7,0.0,223.21
+CA-2015-997059,2015-07-17,2015-07-18,Second Class,Priya Singh,Consumer,United States,Seattle,Illinois,86242,South,Office Supplies,Storage,Paper Reams,1229.75,5,0.0,170.96
+CA-2019-882355,2015-07-18,2015-07-21,Standard Class,Syed,Corporate,United States,Houston,Washington,57517,Central,Furniture,Storage,Stapler,1886.72,8,0.1,500.98
+CA-2015-701863,2015-07-19,2015-07-23,Same Day,John Doe,Corporate,United States,Chicago,Illinois,39257,South,Technology,Accessories,Paper Reams,488.98,9,0.0,164.4

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Superstore Sales Analysis — README</title>
+  <style>
+    :root{--bg:#f7f9fc;--card:#ffffff;--accent:#0b5cff;--muted:#6b7280}
+    body{font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:#111;margin:0;padding:24px}
+    .container{max-width:980px;margin:0 auto}
+    header{display:flex;gap:16px;align-items:center}
+    header img{width:56px;height:56px;border-radius:8px}
+    h1{margin:0;font-size:28px}
+    p.lead{margin:6px 0 20px;color:var(--muted)}
+    .card{background:var(--card);padding:18px;border-radius:10px;box-shadow:0 1px 3px rgba(16,24,40,0.05);margin-bottom:16px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:16px}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    table{width:100%;border-collapse:collapse}
+    code{background:#f3f4f6;padding:2px 6px;border-radius:4px;font-family:monospace}
+    a.button{display:inline-block;background:var(--accent);color:#fff;padding:8px 12px;border-radius:6px;text-decoration:none}
+    .meta{font-size:13px;color:var(--muted)}
+    .preview{width:100%;border-radius:6px;border:1px solid #e6e9ef}
+    ul{margin:0;padding-left:18px}
+    footer{font-size:13px;color:var(--muted);margin-top:18px}
+    .badges img{height:20px;margin-right:8px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="/mnt/data/48e9dc5d-f377-481e-b1bf-690b3223042f.png" alt="Superstore logo">
+      <div>
+        <h1>Superstore Sales Analysis — Power BI Dashboard</h1>
+        <p class="lead">Interactive Power BI report analyzing Sales, Profit, Shipping Cost and Product performance. Includes dataset, Power BI report, and instructions to reproduce or extend.</p>
+      </div>
+    </header>
+
+    <section class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div>
+          <strong>Project:</strong> Superstore Sales Analysis &nbsp;•&nbsp; <span class="meta">Power BI Desktop (.pbix)</span>
+        </div>
+        <div style="display:flex;gap:8px;align-items:center">
+          <a class="button" href="sandbox:/mnt/data/Superstore_Practice_Dataset.csv" download>Download Sample Dataset (CSV)</a>
+          <a class="button" href="#pbix" style="background:#11a37f">Download PBIX (placeholder)</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="grid">
+      <div>
+        <section class="card">
+          <h2>Overview</h2>
+          <p class="meta">This repository contains a Power BI report built on the Global Superstore dataset. The dashboard includes KPI cards, trend lines, bar charts, a donut chart for category share, and interactive slicers for City, Order Priority and Product Category.</p>
+
+          <h3>What the report shows</h3>
+          <ul>
+            <li>Total Sales, Total Profit, Total Cost and Profit %</li>
+            <li>Sales by Customer Segment and by Product Category</li>
+            <li>Profit % by Product Container</li>
+            <li>Sales & Profit trend across time</li>
+            <li>Interactive filters and Last Refresh timestamp</li>
+          </ul>
+
+          <h3>Files in this repo</h3>
+          <table>
+            <tr><td><code>Superstore Power BI Report.pbix</code></td><td class="meta">Power BI Desktop file (visuals & model)</td></tr>
+            <tr><td><code>Global_Superstore_Data.csv</code></td><td class="meta">Source dataset (orders, sales, profit, shipping cost)</td></tr>
+            <tr><td><code>README.html</code></td><td class="meta">This file (HTML)</td></tr>
+            <tr><td><code>/images/dashboard_preview.png</code></td><td class="meta">Dashboard screenshot used in README</td></tr>
+          </table>
+        </section>
+
+        <section class="card">
+          <h2>Data Model & ETL</h2>
+          <p class="meta">Power Query transformations applied:</p>
+          <ul>
+            <li>Converted date columns to <code>Date/DateTime</code></li>
+            <li>Created a dedicated <strong>Date</strong> (Calendar) table and marked as date table</li>
+            <li>Standardized category names and removed nulls</li>
+            <li>Computed <code>Total Shipping Cost</code> (if missing) and added Net Profit columns</li>
+          </ul>
+
+          <h3>Model design</h3>
+          <ul>
+            <li><strong>Fact:</strong> Orders (Sales, Profit, Shipping Cost)</li>
+            <li><strong>Dimensions:</strong> Calendar, Customer, Product, Region</li>
+            <li>Primary relationships: Order Date ↔ Calendar[Date], Product ↔ Product Table</li>
+          </ul>
+
+          <h3>Key DAX measures</h3>
+          <pre><code>Total Sales = SUM(Orders[Sales])
+
+Total Profit = SUM(Orders[Profit])
+
+Profit % = DIVIDE(SUM(Orders[Profit]), SUM(Orders[Sales]))
+
+Net Profit = SUM(Orders[Profit]) - SUM(Orders[Total Shipping Cost])
+
+Net Profit % = DIVIDE([Net Profit], SUM(Orders[Sales]))
+
+LastRefresh = LASTREFRESH()</code></pre>
+        </section>
+
+        <section class="card">
+          <h2>How to open & use</h2>
+          <ol>
+            <li>Download the dataset using the <strong>Download Sample Dataset</strong> button above.</li>
+            <li>Open <code>Superstore Power BI Report.pbix</code> in Power BI Desktop.</li>
+            <li>In Power Query, point the Orders table to the dataset CSV if needed and refresh.</li>
+            <li>Verify relationships and the Date table is marked as the model date table.</li>
+            <li>Interact with slicers, KPI cards and check the Last Refresh timestamp.</li>
+          </ol>
+
+          <p class="meta">Tip: To enable on-demand dataset refresh from the report, use the Power Automate visual and create a flow that calls <em>Refresh a dataset</em> in Power BI Service (requires appropriate permissions).</p>
+        </section>
+
+      </div>
+
+      <aside class="card">
+        <h3>Dashboard Preview</h3>
+        <img class="preview" src="/mnt/data/48e9dc5d-f377-481e-b1bf-690b3223042f.png" alt="dashboard preview">
+
+        <h4 style="margin-top:12px">Quick Links</h4>
+        <p class="meta">Download files or visit the project links below.</p>
+        <p><a class="button" href="sandbox:/mnt/data/Superstore_Practice_Dataset.csv" download>Download CSV</a></p>
+        <p style="margin-top:8px"><a href="#pbix">Download PBIX (placeholder)</a></p>
+
+        <div style="margin-top:12px">
+          <h4>Contact</h4>
+          <p class="meta">Author: Syed<br>GitHub: <a href="https://github.com/your-github-username" target="_blank">your-github-username</a><br>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        </div>
+      </aside>
+    </div>
+
+    <section class="card two-col">
+      <div>
+        <h3>Insights & Next Steps</h3>
+        <ul>
+          <li>Technology category drives the highest revenue — explore margin by sub-category</li>
+          <li>Some containers show negative Profit % — investigate cost & returns</li>
+          <li>Add forecasting and rolling 12-month trend analysis</li>
+          <li>Implement Row-Level Security for multi-user deployments</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Future Enhancements</h3>
+        <ul>
+          <li>Add a Returns table and link to Orders for more accurate Net Profit</li>
+          <li>Publish to Power BI Service and wire Power Automate refresh button</li>
+          <li>Provide Drill-through pages for Customer / Product analysis</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="meta">
+      <div class="badges">
+        <img src="https://img.shields.io/badge/Power%20BI-Desktop-yellow" alt="Power BI">
+        <img src="https://img.shields.io/badge/DAX-Measures-blue" alt="DAX">
+      </div>
+      <p style="margin-top:8px">Licensed under MIT. Feel free to clone, adapt, and contribute. Pull requests welcome.</p>
+    </footer>
+  </div>
+</body>
+</html>
